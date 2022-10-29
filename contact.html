@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/img/fav.png" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <title>
+      Retro Game Hub | 🎮| Play Retro Games online
+      <link rel="icon" type="image/x-icon" href="img/icon.ico">
+    </title>
+  </head>
+  <body>
+    <!-- Custom Scrollbar -->
+    <div class="progress">
+      <div class="progress-bar" id="scroll-bar"></div>
+    </div>
+    <!-- Header Section -->
+    <header>
+      <div class="nav container">
+        <a href="index.html" class="logo">
+          🎮Retro Game
+          <span>Hub</span>
+        </a>
+        <div class="nav-icons">
+          <i class="bx bx-bell bx-tada" id="bell-icon"><span></span></i>
+          <a href="index.html"
+            ><i class="bx bxs-download bx-tada" id="download-icon"></i
+          ></a>
+          <div class="menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+        <!-- Menu -->
+        <div class="menu">
+          <img src="img/menu.png" alt="Menu Image" />
+          <div class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#trending-section" id="trending-section">Trending</a>
+            </li>
+            <li>
+              <a href="latestgames.html" id="new-section">Latest Games</a>
+            </li>
+            <li><a href="gameplay.html">GamePlay</a></li>
+            <li>
+              <a href="aboutme.html" id="new-section">About</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </div>
+        </div>
+        <!-- Notification -->
+        <div class="notification">
+          <div class="notification-box">
+            <span>✔️</span>
+            <p>Congratulations! Your Game has been Downloaded</p>
+          </div>
+          <div class="notification-box box-color">
+            <span>❌</span>
+            <p>Could not Download your Game Plz Retry Again!</p>
+          </div>
+        </div>
+      </div>
+    </header>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="contactstyle.css" />
+<main>
+ < class="form">
+   <div class="title">
+   <h1 id="title">Survey Form</h1>
+   <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </div>
+   <form id="survey-form">
+   
+     <label for="name" id="name-label" class="uno">Name</label>
+     <input type="text" id="name" placeholder="Enter your name" requiered>
+  
+     
+     <label for="email" id="email-label" class="uno">Email</label>
+     <input type="email" id="email" placeholder="Enter your email"  requiered>
+     
+     <label for="age" id="number-label" class="uno">Age (optional)</label>
+     <input type="number" id="number" placeholder="Enter your age">
+     
+     <label for="dropdown" id="dropdown-label" class="uno">Which option best describes your current role?</label>
+     <select id="dropdown" name="rol">
+       <option disable selected value>Select your current rol</option>
+       <option value="student">Student</option>
+       <option value="job">Full time job</option>
+       <option value="freelancer">Freelancer</option>
+       <option value="hunting">Looking for a job</option>
+     </select>
+     <div>
+     <p class="uno">Would you recommend our Agency to a friend?</p>
+     <label for="btn" id="btn-label" class="uno">Definitely</label>
+     <input type="radio" name="user-recommend" value="definitely" class="input" checked>
+     <label for="btn" id="btn-label" class="uno">Maybe</label>
+     <input type="radio" name="user-recommend" value="maybe" class="input">
+     <label for="btn" id="btn-label" class="uno">Not sure</label>
+       <input type="radio" name="user-recommend" value="not-sure" class="input"></div>
+    
+       <p class="uno">What would you like to see improved? (Check all that apply)</p>
+     <div class="check">
+     <label class="uno">
+     <input name="prefer" type="checkbox" value="front-end projects" class="checkbox-input">Front-end projects</label>
+     <label class="uno">
+     <input name="prefer" type="checkbox" value="back-end projects" class="checkbox-input">Back-end projects</label>
+
+     <label class="uno">
+   <input name="prefer" type="checkbox" value="social-media" class="checkbox-input">Social media (Marketing)</label>
+     <label class="uno">
+   <input name="prefer" type="checkbox" value="video-games" class="checkbox-input">Video Games Development</label>
+
+     <label class="uno">
+   <input name="prefer" type="checkbox" value="ui-ux-design" class="checkbox-input">UI/UX Design Tutorials++</label>
+       <label class="uno">
+   <input name="prefer" type="checkbox" value="other" class="checkbox-input">Other (send us a message)</label>
+     </div>
+     
+     <p class="uno">Any comments or suggestions?</p>
+     <textarea id="message" class="textarea uno" name="message" placeholder="Enter your message here..."></textarea>
+     
+    
+     
+     <button type="submit" id="submit" class="submit uno">Send your application</button>
+     
+   </form>
+  </div>
+</main>
+<!-- Footer Section -->
+<div class="copyright container">
+    <a href="index.html" class="logo2">
+      🎮Retro Game
+      <span>Hub</span>
+    </a>
+    <p>
+      &#169;
+      <a class="link" href="https://aslanahm.github.io/">Aslan Dev</a>
+      All Rights Reserved 2022
+    </p>
+  </div>
+ 
+  <script src="swiper-bundle.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  <script src="script.js"></script>
+  <script src="backgroundjs.js"></script>
+</body>
+</html>
