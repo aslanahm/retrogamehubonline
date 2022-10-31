@@ -33,9 +33,9 @@ img {
 
 body {
     color: var(--text-color);
-    background: linear-gradient(-45deg, #ee7752, #f567df, #23a6d5, #23d5ab);
+    background: linear-gradient(-75deg, #ee7752, #cc4dbbc5, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 25s ease infinite;
 }
 
 @keyframes gradient {
@@ -70,7 +70,7 @@ body::-webkit-scrollbar {
 .container {
     max-width: 1068px;
     margin: auto;
-    width: 100%;
+    width: 70%;
 }
 
 header {
