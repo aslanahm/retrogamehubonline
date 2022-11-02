@@ -33,10 +33,22 @@ img {
 
 body {
     color: var(--text-color);
-    background: linear-gradient(-75deg, #ee7752, #cc4dbbc5, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 25s ease infinite;
+    /*background: linear-gradient(-75deg, #ee7752, #cc4dbbc5, #23a6d5, #23d5ab);
+      background-color: black;
+      background-size: 400% 400%;
+      animation: gradient 25s ease infinite;
+    */
+    background-color:  black;
+
+    
 }
+.brighter-span {
+    filter: brightness(150%);
+  }
+  
+  .darker-span {
+    filter: brightness(50%);
+  }
 
 @keyframes gradient {
     0% {
@@ -517,12 +529,13 @@ section {
 }
 
 .about h2 {
-    font-size: 1.4rem;
-    display: inline-flex;
+    font-size: 1.9rem;
     font-weight: 500;
-    border-bottom: 4px solid var(--main-color);
+    font-family: 'Faster One';
+    border-bottom: 1px solid var(--main-color);
     margin: 1.6rem 0;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .about {
@@ -905,4 +918,16 @@ html::-webkit-scrollbar {
     text-align: center;
     color: #fa5353;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  /*
+  AboutGameIMG*/
+  .aboutgameimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid tomato;
+    border-radius: 20px;
+    padding: 5px;
+    width: 45%;
   }
