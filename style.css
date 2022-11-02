@@ -671,7 +671,7 @@ html::-webkit-scrollbar {
     }
 
     .notification {
-        right: 4rem;
+        right: 1rem;
     }
 
     .menu img {
@@ -698,7 +698,7 @@ html::-webkit-scrollbar {
     }
 
     .video-container {
-        margin-top: 5rem !important;
+        margin-top: 1rem !important;
     }
 
     .game-heading {
@@ -780,7 +780,7 @@ html::-webkit-scrollbar {
     }
 
     .nav {
-        padding: 8px 0;
+        padding: 3px 0;
     }
 
     .nav-icons .bx,
