@@ -70,33 +70,32 @@ body::-webkit-scrollbar {
 .container {
     max-width: 1068px;
     margin: auto;
-    width: 70%;
+    width: 80%;
 }
 
 header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
     z-index: 100;
     user-select: none;
-    margin-top: 0px;
+    margin-top:auto;
 }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 16px 0;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    padding: 6px 0;
+    margin-top: 0px;
 }
 
 .logo {
     color: var(--text-color);
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 500;
     margin: 0 auto 0 0;
     font-style: smooth;
     font-kerning: 1rem;
@@ -581,13 +580,13 @@ section {
 }
 
 .game-heading {
-    margin-top: 25px;
+    margin-top: 5px;
     user-select: none;
     cursor: text;
 }
 
-.game-heading h1 {
-    font-size: 2rem;
+.game-heading h3 {
+    font-size: 1rem;
     font-weight: 100;
     text-transform: uppercase;
     font-family: 'Games', sans-serif;
@@ -595,10 +594,9 @@ section {
 }
 
 .game-heading .s-icon {
-    margin-top: 7.5rem;
+    margin-top: 0px;
     width: 30px;
     height: 25px;
-    margin-right: 1rem;
     border-radius: 0.3rem;
 }
 
@@ -852,7 +850,7 @@ html::-webkit-scrollbar {
 .iframe_box {
     position: relative;
     width: 100%;
-    height: 80%;
+    height: 70%;
     overflow: hidden;
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
     padding-bottom:56.25%;
