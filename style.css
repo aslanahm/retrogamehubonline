@@ -33,8 +33,10 @@ img {
 }
 
 body {
-    color: var(--text-color);
-    /*background: linear-gradient(-75deg, #ee7752, #cc4dbbc5, #23a6d5, #23d5ab);
+    
+    /*
+      color: var(--text-color);
+      background: linear-gradient(-75deg, #ee7752, #cc4dbbc5, #23a6d5, #23d5ab);
       background-color: black;
       background-size: 400% 400%;
       animation: gradient 25s ease infinite;
@@ -43,13 +45,6 @@ body {
 
     
 }
-.brighter-span {
-    filter: brightness(150%);
-  }
-  
-  .darker-span {
-    filter: brightness(50%);
-  }
 
 @keyframes gradient {
     0% {
