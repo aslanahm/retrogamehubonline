@@ -581,26 +581,27 @@ section {
 }
 
 .game-heading {
+    margin-top: 25px;
     display: inline-flex;
-    margin-left: 9rem;
+    margin-left: 3rem;
     user-select: none;
     cursor: text;
 }
 
 .game-heading h1 {
-    font-size: 2.5rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 100;
     text-transform: uppercase;
     font-family: 'Games', sans-serif;
     color: var(--text-color);
 }
 
 .game-heading .s-icon {
-    margin-top: 7rem;
+    margin-top: 7.5rem;
     width: 30px;
-    height: 30px;
+    height: 25px;
     margin-right: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
 }
 
 .download .bx {
@@ -853,8 +854,9 @@ html::-webkit-scrollbar {
 .iframe_box {
     position: relative;
     width: 100%;
+    height: 100%;
     overflow: hidden;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    padding-top: 86.25%; /* 16:9 Aspect Ratio */
   }
   
   .responsive-iframe {
