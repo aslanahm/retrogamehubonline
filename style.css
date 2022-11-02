@@ -582,8 +582,6 @@ section {
 
 .game-heading {
     margin-top: 25px;
-    display: inline-flex;
-    margin-left: 3rem;
     user-select: none;
     cursor: text;
 }
@@ -667,7 +665,7 @@ html::-webkit-scrollbar {
 @media (min-width: 1080px) {
     .container {
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
 
     .nav {
@@ -854,9 +852,9 @@ html::-webkit-scrollbar {
 .iframe_box {
     position: relative;
     width: 100%;
-    height: 90%;
+    height: 80%;
     overflow: hidden;
-    padding-top: 100%; /* 16:9 Aspect Ratio */
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
     padding-bottom:56.25%;
     display:block;
   }
