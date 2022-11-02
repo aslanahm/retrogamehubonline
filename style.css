@@ -545,8 +545,10 @@ section {
 }
 
 .screenshots h2 {
-    font-size: 1.4rem;
-    display: inline-flex;
+    font-size: 1.9rem;
+    font-family: 'Faster One';
+    /*display: inline-flex;*/
+    text-align: center;
     font-weight: 500;
     border-bottom: 4px solid var(--main-color);
     margin: 1.6rem 0;
